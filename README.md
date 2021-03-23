@@ -1,3 +1,3 @@
-## Exploratory analysis using data provided by [Ireland's COVID-19 Data Hub](https://covid-19.geohive.ie/)
+## Exploratory analysis using public Ireland COVID-19 data
 
-* [Hospitalisation](notebooks/Hospitalisation.ipynb)
+* [HPSC COVID-19 14-day Epidemiology Reports](notebooks/HPSC COVID-19 14-day Epidemiology Reports.ipynb)
