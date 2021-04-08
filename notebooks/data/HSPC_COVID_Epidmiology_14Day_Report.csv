@@ -9,7 +9,7 @@
 # 3) ' yrs' has been removed from the 'Age Group (years)' column values
 # 4) 'Date' is the date of each report
 # 5) The 'Unknown' age group rows have not been copied yet for all reports. However, these contain small values, and may be copied at a later date.
-Date "Age Group (years)" "Number of cases (n)" "Cases hospitalised (n)" "Cases hospitalised (%)" "Cases admitted to ICU (n)" "Cases admitted to ICU (%)"
+"Date" "Age Group (years)" "Number of cases (n)" "Cases hospitalised (n)" "Cases hospitalised (%)" "Cases admitted to ICU (n)" "Cases admitted to ICU (%)"
 2021-01-01 0-4 473 3 0.63 0 0
 2021-01-01 5-12 831 8 0.96 0 0
 2021-01-01 13-18 920 10 1.09 0 0
