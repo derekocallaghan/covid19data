@@ -1,14 +1,14 @@
 # HPSC COVID-19 14-day Epidemiology Reports
 # https://www.hpsc.ie/a-z/respiratory/coronavirus/novelcoronavirus/surveillance/covid-1914-dayepidemiologyreports/
-# Data copied from "Table 5/6: Cumulative number of confirmed cases of COVID-19 notified in Ireland from <start date> to midnight <start date + 13 days> by age group, hospitalisation and ICU admission*"
-#   * "The number of cases hospitalised and admitted to ICU relate only to events notified in the last 14 days and do not include cases notified prior to this and admitted to hospital or ICU in the last 14 days"
+# Data copied from 'Table 5/6: Cumulative number of confirmed cases of COVID-19 notified in Ireland from <start date> to midnight <start date + 13 days> by age group, hospitalisation and ICU admission*'
+#   * 'The number of cases hospitalised and admitted to ICU relate only to events notified in the last 14 days and do not include cases notified prior to this and admitted to hospital or ICU in the last 14 days'
 #
 # Following modifications have been made:
-# 1) Where "Cases admitted to ICU (n)" is "<5", and no value is specified for "Cases admitted to ICU (%)", a value of zero has been set for the former.
-# 2) Where "Cases admitted to ICU (n)" is "<5", and a value is specified for "Cases admitted to ICU (%)", the former has been manually calculated.
-# 3) " yrs" has been removed from the "Age Group (years)" column values
-# 4) "Date" is the date of each report
-# 5) The "Unknown" age group rows have not been copied yet for all reports. However, these contain small values, and may be copied at a later date.
+# 1) Where 'Cases admitted to ICU (n)' is '<5', and no value is specified for 'Cases admitted to ICU (%)', a value of zero has been set for the former.
+# 2) Where 'Cases admitted to ICU (n)' is '<5', and a value is specified for 'Cases admitted to ICU (%)', the former has been manually calculated.
+# 3) ' yrs' has been removed from the 'Age Group (years)' column values
+# 4) 'Date' is the date of each report
+# 5) The 'Unknown' age group rows have not been copied yet for all reports. However, these contain small values, and may be copied at a later date.
 Date "Age Group (years)" "Number of cases (n)" "Cases hospitalised (n)" "Cases hospitalised (%)" "Cases admitted to ICU (n)" "Cases admitted to ICU (%)"
 2021-01-01 0-4 473 3 0.63 0 0
 2021-01-01 5-12 831 8 0.96 0 0
@@ -1040,3 +1040,14 @@ Date "Age Group (years)" "Number of cases (n)" "Cases hospitalised (n)" "Cases h
 2021-04-06 65-74 306 44 16.18 0 0
 2021-04-06 75-84 146 42 15.44 0 0
 2021-04-06 85+ 59 28 10.29 0 0
+2021-04-07 0-4 547 9 3.33 0 0
+2021-04-07 5-12 999 6 2.22 0 0
+2021-04-07 13-18 550 5 1.85 0 0
+2021-04-07 19-24 742 8 2.96 0 0
+2021-04-07 25-34 1115 22 8.15 0 0.00
+2021-04-07 35-44 1341 40 14.81 0 0
+2021-04-07 45-54 869 37 13.70 5 29.41
+2021-04-07 55-64 562 31 11.48 0 0
+2021-04-07 65-74 300 45 16.67 0 0
+2021-04-07 75-84 142 41 15.19 0 0
+2021-04-07 85+ 53 26 9.63 0 0
