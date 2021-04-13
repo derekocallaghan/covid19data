@@ -9,6 +9,7 @@
 # 3) ' yrs' has been removed from the 'Age Group (years)' column values
 # 4) 'Date' is the date of each report
 # 5) The 'Unknown' age group rows have not been copied yet for all reports. However, these contain small values, and may be copied at a later date.
+# 6) In certain reports, the 13-18 and 19-24 age groups have been merged due to '13-18 yrs and 19-24 yrs age groups are combined in this table due to the hospitalisation data for one or both of these age categories being <5'. In order to retain the same age group categories for all report dates, estimates for the 13-18 and 19-24 age groups have been generated from the provided single values based on their respective percentages from the previous report data.
 "Date" "Age Group (years)" "Number of cases (n)" "Cases hospitalised (n)" "Cases hospitalised (%)" "Cases admitted to ICU (n)" "Cases admitted to ICU (%)"
 2021-01-01 0-4 473 3 0.63 0 0
 2021-01-01 5-12 831 8 0.96 0 0
@@ -1064,8 +1065,8 @@
 2021-04-08 85+ 51 25 9.65 0 0
 2021-04-09 0-4 501 7 2.92 0 0
 2021-04-09 5-12 960 5 2.08 0 0
-2021-04-09 13-18 532 4 5.00 0 0
-2021-04-09 19-24 726 7 5.00 0 0
+2021-04-09 13-18 532 4 1.79 0 0
+2021-04-09 19-24 726 7 3.21 0 0
 2021-04-09 25-34 1080 24 10.00 0 0
 2021-04-09 35-44 1267 34 14.17 0 0
 2021-04-09 45-54 852 34 14.17 0 0
@@ -1073,3 +1074,14 @@
 2021-04-09 65-74 269 33 13.75 0 0
 2021-04-09 75-84 128 36 15.00 0 0
 2021-04-09 85+ 47 26 10.83 0 0
+2021-04-12 0-4 397 7 2.93 0 0
+2021-04-12 5-12 844 6 2.51 0 0
+2021-04-12 13-18 497 4 1.69 0 0
+2021-04-12 19-24 677 9 3.75 0 0
+2021-04-12 25-34 1018 25 10.46 0 0
+2021-04-12 35-44 1172 31 12.97 0 0
+2021-04-12 45-54 764 37 15.48 5 38.46
+2021-04-12 55-64 502 29 12.13 0 0
+2021-04-12 65-74 248 32 13.39 0 0
+2021-04-12 75-84 118 36 15.06 0 0
+2021-04-12 85+ 44 23 9.62 0 0
