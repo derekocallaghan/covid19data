@@ -9,8 +9,8 @@
 # 3) ' yrs' has been removed from the 'Age Group (years)' column values
 # 4) 'Date' is the date of each report
 # 5) The 'Unknown' age group rows have not been copied yet for all reports. However, these contain small values, and may be copied at a later date.
-# 6) In certain reports, the 0-4 and 5-12 age groups have been merged due to '^ 0-4 yrs and 5-12 yrs(, and 13-18 yrs and 19-24 yrs age groups) are combined in this table due to the hospitalisation data for one or both of these age categories being <5'. In order to retain the same age group categories for all report dates, estimates for the 0-4 and 5-12 age groups have been generated from the provided single values based on their respective percentages from the previous report data.
-# 7) In certain reports, the 13-18 and 19-24 age groups have been merged due to '13-18 yrs and 19-24 yrs age groups are combined in this table due to the hospitalisation data for one or both of these age categories being <5'. In order to retain the same age group categories for all report dates, estimates for the 13-18 and 19-24 age groups have been generated from the provided single values based on their respective percentages from the previous report data. This has also appeared in the report statement covered by modification 6.
+# 6) In certain reports, the 0-4 and 5-12 age groups have been merged due to '^ 0-4 yrs and 5-12 yrs(, and 13-18 yrs and 19-24 yrs age groups) are combined in this table due to the hospitalisation data for one or both of these age categories being <5'. In order to retain the same age group categories for all report dates, estimates for the 0-4 and 5-12 age groups have been generated from the provided single values based on their respective percentages from the previous report data, or from Table 1.
+# 7) In certain reports, the 13-18 and 19-24 age groups have been merged due to '13-18 yrs and 19-24 yrs age groups are combined in this table due to the hospitalisation data for one or both of these age categories being <5'. In order to retain the same age group categories for all report dates, estimates for the 13-18 and 19-24 age groups have been generated from the provided single values based on their respective percentages from the previous report data, or from Table 1. This has also appeared in the report statement covered by modification 6.
 "Date" "Age Group (years)" "Number of cases (n)" "Cases hospitalised (n)" "Cases hospitalised (%)" "Cases admitted to ICU (n)" "Cases admitted to ICU (%)"
 2021-01-01 0-4 473 3 0.63 0 0
 2021-01-01 5-12 831 8 0.96 0 0
@@ -1066,8 +1066,8 @@
 2021-04-08 85+ 51 25 9.65 0 0
 2021-04-09 0-4 501 7 2.92 0 0
 2021-04-09 5-12 960 5 2.08 0 0
-2021-04-09 13-18 532 4 1.79 0 0
-2021-04-09 19-24 726 7 3.21 0 0
+2021-04-09 13-18 530 4 1.79 0 0
+2021-04-09 19-24 728 7 3.21 0 0
 2021-04-09 25-34 1080 24 10.00 0 0
 2021-04-09 35-44 1267 34 14.17 0 0
 2021-04-09 45-54 852 34 14.17 0 0
@@ -1077,8 +1077,8 @@
 2021-04-09 85+ 47 26 10.83 0 0
 2021-04-12 0-4 397 7 2.93 0 0
 2021-04-12 5-12 844 6 2.51 0 0
-2021-04-12 13-18 497 4 1.69 0 0
-2021-04-12 19-24 677 9 3.75 0 0
+2021-04-12 13-18 467 4 1.69 0 0
+2021-04-12 19-24 707 9 3.75 0 0
 2021-04-12 25-34 1018 25 10.46 0 0
 2021-04-12 35-44 1172 31 12.97 0 0
 2021-04-12 45-54 764 37 15.48 5 38.46
@@ -1088,8 +1088,8 @@
 2021-04-12 85+ 44 23 9.62 0 0
 2021-04-13 0-4 399 7 2.99 0 0
 2021-04-13 5-12 843 5 2.14 0 0
-2021-04-13 13-18 496 3 1.28 0 0
-2021-04-13 19-24 676 8 3.42 0 0
+2021-04-13 13-18 462 3 1.28 0 0
+2021-04-13 19-24 709 8 3.42 0 0
 2021-04-13 25-34 1033 28 11.97 0 0
 2021-04-13 35-44 1176 32 13.68 0 0
 2021-04-13 45-54 756 39 16.67 6 40.00
@@ -1099,8 +1099,8 @@
 2021-04-13 85+ 42 22 9.40 0 0
 2021-04-14 0-4 404 7 3.11 0 0
 2021-04-14 5-12 837 6 2.67 0 0
-2021-04-14 13-18 497 3 1.33 0 0
-2021-04-14 19-24 676 8 3.56 0 0
+2021-04-14 13-18 461 3 1.33 0 0
+2021-04-14 19-24 712 8 3.56 0 0
 2021-04-14 25-34 1056 29 12.89 0 0
 2021-04-14 35-44 1167 32 14.22 0 0
 2021-04-14 45-54 760 33 14.67 0 0
@@ -1110,8 +1110,8 @@
 2021-04-14 85+ 39 21 9.33 0 0
 2021-04-15 0-4 363 6 2.64 0 0
 2021-04-15 5-12 774 7 3.08 0 0
-2021-04-15 13-18 459 3 1.32 0 0
-2021-04-15 19-24 625 7 3.08 0 0
+2021-04-15 13-18 445 3 1.32 0 0
+2021-04-15 19-24 658 7 3.08 0 0
 2021-04-15 25-34 983 28 12.33 0 0
 2021-04-15 35-44 1084 32 14.10 0 0
 2021-04-15 45-54 711 36 15.86 0 0
@@ -1121,8 +1121,8 @@
 2021-04-15 85+ 34 18 7.93 0 0
 2021-04-16 0-4 347 6 2.83 0 0
 2021-04-16 5-12 749 7 3.30 0 0
-2021-04-16 13-18 458 2 0.94 0 0
-2021-04-16 19-24 623 5 2.36 0 0
+2021-04-16 13-18 439 2 0.94 0 0
+2021-04-16 19-24 642 5 2.36 0 0
 2021-04-16 25-34 949 29 13.68 0 0
 2021-04-16 35-44 1069 30 14.15 0 0
 2021-04-16 45-54 695 31 14.62 0 0
@@ -1130,10 +1130,10 @@
 2021-04-16 65-74 201 21 9.91 0 0
 2021-04-16 75-84 93 35 16.51 0 0
 2021-04-16 85+ 27 15 7.08 0 0
-2021-04-19 0-4 331 4 1.94 0 0
-2021-04-19 5-12 713 5 2.43 0 0
-2021-04-19 13-18 450 3 1.45 0 0
-2021-04-19 19-24 611 7 3.40 0 0
+2021-04-19 0-4 338 4 1.94 0 0
+2021-04-19 5-12 706 5 2.43 0 0
+2021-04-19 13-18 458 3 1.45 0 0
+2021-04-19 19-24 603 7 3.40 0 0
 2021-04-19 25-34 937 29 14.08 0 0
 2021-04-19 35-44 997 23 11.17 0 0
 2021-04-19 45-54 692 31 15.05 0 0
@@ -1141,8 +1141,8 @@
 2021-04-19 65-74 192 25 12.14 0 0
 2021-04-19 75-84 84 32 15.53 0 0
 2021-04-19 85+ 22 14 6.80 0 0
-2021-04-20 0-4 313 4 1.76 0 0
-2021-04-20 5-12 675 5 2.20 0 0
+2021-04-20 0-4 324 4 1.76 0 0
+2021-04-20 5-12 664 5 2.20 0 0
 2021-04-20 13-18 473 5 2.20 0 0
 2021-04-20 19-24 586 8 3.52 0 0
 2021-04-20 25-34 937 31 13.66 0 0
@@ -1152,8 +1152,8 @@
 2021-04-20 65-74 200 32 14.10 0 0
 2021-04-20 75-84 82 31 13.66 0 0
 2021-04-20 85+ 25 14 6.17 0 0
-2021-04-21 0-4 306 4 1.85 0 0
-2021-04-21 5-12 660 5 2.32 0 0
+2021-04-21 0-4 324 4 1.85 0 0
+2021-04-21 5-12 642 5 2.32 0 0
 2021-04-21 13-18 486 5 2.31 0 0
 2021-04-21 19-24 577 8 3.70 0 0
 2021-04-21 25-34 941 28 12.96 0 0
@@ -1163,8 +1163,8 @@
 2021-04-21 65-74 196 31 14.35 0 0
 2021-04-21 75-84 77 28 12.96 0 0
 2021-04-21 85+ 27 13 6.02 0 0
-2021-04-22 0-4 318 4 1.75 0 0
-2021-04-22 5-12 685 5 2.20 0 0
+2021-04-22 0-4 327 4 1.75 0 0
+2021-04-22 5-12 676 5 2.20 0 0
 2021-04-22 13-18 536 7 3.07 0 0
 2021-04-22 19-24 599 10 4.39 0 0
 2021-04-22 25-34 966 29 12.72 0 0
@@ -1174,8 +1174,8 @@
 2021-04-22 65-74 212 35 15.35 0 0
 2021-04-22 75-84 83 29 12.72 0 0
 2021-04-22 85+ 26 11 4.82 0 0
-2021-04-23 0-4 308 4 1.76 0 0
-2021-04-23 5-12 666 6 2.65 0 0
+2021-04-23 0-4 322 4 1.76 0 0
+2021-04-23 5-12 652 6 2.65 0 0
 2021-04-23 13-18 534 7 3.08 0 0
 2021-04-23 19-24 596 12 5.29 0 0
 2021-04-23 25-34 960 27 11.89 0 0
@@ -1218,3 +1218,14 @@
 2021-04-28 65-74 213 35 16.06 0 0
 2021-04-28 75-84 75 19 8.72 0 0
 2021-04-28 85+ 26 5 2.29 0 0
+2021-04-29 0-4 379 5 2.31 0 0
+2021-04-29 5-12 692 7 3.24 0 0
+2021-04-29 13-18 674 11 5.09 0 0
+2021-04-29 19-24 616 13 6.02 0 0
+2021-04-29 25-34 1004 26 12.04 0 0
+2021-04-29 35-44 982 29 13.43 0 0
+2021-04-29 45-54 816 39 18.06 0 0
+2021-04-29 55-64 460 29 13.43 5 26.32
+2021-04-29 65-74 208 33 15.28 5 26.32
+2021-04-29 75-84 77 18 8.33 0 0
+2021-04-29 85+ 27 6 2.78 0 0
