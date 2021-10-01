@@ -1,8 +1,9 @@
 ## Exploratory analysis using public Ireland COVID-19 data
 
 * Current Model Scenario Projections
-  * [NPHET IEMAG 2021-07-09 Model Scenario Projections vs Reported Data](notebooks/NPHET%20IEMAG%202021-07-09%20Model%20Scenario%20Projections%20vs%20Reported%20Data.ipynb)
+  * [NPHET IEMAG 2021-08-11 Model Scenario Projections vs Reported Data](notebooks/NPHET%20IEMAG%202021-08-11%20Model%20Scenario%20Projections%20vs%20Reported%20Data.ipynb)
 * Previous Model Scenario Projections
+  * [NPHET IEMAG 2021-07-09 Model Scenario Projections vs Reported Data](notebooks/NPHET%20IEMAG%202021-07-09%20Model%20Scenario%20Projections%20vs%20Reported%20Data.ipynb)
   * [NPHET IEMAG 2021-06-28 Model Scenario Projections vs Reported Data](notebooks/NPHET%20IEMAG%202021-06-28%20Model%20Scenario%20Projections%20vs%20Reported%20Data.ipynb)
   * [NPHET IEMAG 2021-04-28 Model Scenario Projections vs Reported Data](notebooks/NPHET%20IEMAG%202021-04-28%20Model%20Scenario%20Projections%20vs%20Reported%20Data.ipynb)
   * [NPHET IEMAG 2021-03-29 Model Scenario Projections vs Reported Data](notebooks/NPHET%20IEMAG%202021-03-29%20Model%20Scenario%20Projections%20vs%20Reported%20Data.ipynb)
